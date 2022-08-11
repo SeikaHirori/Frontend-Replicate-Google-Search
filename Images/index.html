@@ -5,11 +5,31 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="other_options">
+            <div class="other_link">
+                <a href="../Search/index.html">Search</a> 
+            </div>
+            <div class="other_link">
+                <a href="../Advance/index.html">Advance</a>
+            </div>
+        </div>
+        
         <div class="search">
-            <form action="https://images.google.com/images">
-                <input type="text" name="q">
-                <input type="submit" value="Image Search">
+
+            <div class="Google">Google</div>
+            <div id="name_images">Images</div>
+            <!-- <form method="get" role="search" action="http://images.google.com/images" > -->
+            <form method="get" role="search" action="https://www.google.com/search" >
+                <!-- RFER 3 -->
+                <div class="fields">
+                    <input type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch"> <!--this is how to add hidden info to trigger to ONLY search for images!-->
+                </div>
+                <div class="fields">
+                    <input type="submit" value="Image Search">
+                </div>
             </form>
+
         </div>
     </body>
 </html>

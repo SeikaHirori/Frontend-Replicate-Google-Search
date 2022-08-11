@@ -1,0 +1,58 @@
+body {
+  background-color: gray;
+  color: white;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.search .Google {
+  font-size: 50px;
+}
+.search .find_pages {
+  text-align: center left;
+}
+.search .search_with {
+  display: flex;
+  flex: wrap;
+}
+.search .search_with .fields {
+  text-align: center left;
+  padding: 5px;
+  flex: 50%;
+}
+.search .search_with .fields input[type=text] {
+  border-radius: 25px;
+  border: 1.5px solid darkblue;
+  padding: 4px;
+  background-color: whitesmoke;
+}
+.search .search_with .fields input[type=submit] {
+  border-radius: 5px;
+  border: 1.5px solid black;
+  padding: 5px;
+  width: auto;
+  background-color: whitesmoke;
+}
+
+.other_options {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+.other_options .other_link {
+  padding: 1.5px;
+}
+.other_options .other_link a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=style.css.map */
