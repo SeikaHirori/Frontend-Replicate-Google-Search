@@ -54,3 +54,15 @@ How it works:
     - Function: 'Any of these words'
 - 'eq'
     - Function: 'None of these words'
+
+# "I'm Feeling Lucky" Button
+- Simplified link: 
+> https://www.google.com/search?q=harvard&btnI=I'm Feeling Lucky
+
+How it works:
+- "btnI=I'm Feeling Lucky"
+    - "btnI" seems to be the name in HTML
+    - "I'm Feeling Lucky" is the value to trigger the effect.
+- HOWEVER:
+    - It seems like a redirect notice is triggered. In order to bypass, it seems like Google (itself) has to issue a temporary token that bypasses this screen. 
+        - SOF: https://webmasters.stackexchange.com/a/117472

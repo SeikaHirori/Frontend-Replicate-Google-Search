@@ -24,3 +24,11 @@
 - RFER 6
     - Google's Developer Doc: Programming Search Engine
         - https://developers.google.com/custom-search/docs/tutorial/implementingsearchbox
+
+- RFER 7
+    - Using input "hidden" to add other values
+        - https://stackoverflow.com/questions/9932047/html-multiple-name-value-for-an-element
+
+- RFER 8
+    - Trying to vertically display text
+        - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
